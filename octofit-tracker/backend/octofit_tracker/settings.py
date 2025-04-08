@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-bwy#_864t+mzeiq^a23hgj!6&*a575ug^g^5pa3&!)kn=2h#hf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Allow all hosts
-ALLOWED_HOSTS = ['*']
+# Allow host access to codespace URL and localhost
+ALLOWED_HOSTS = ['sturdy-carnival-695p5qgg59rw3xxxw-8000.app.github.dev', 'localhost']
 
 
 # Application definition
